@@ -11,7 +11,7 @@ public class SpringbootGithubDockerApplication {
 
 	@GetMapping("/handshake")
 	public String welcomeMethod() {
-		return "Welcome to github actions world!";
+		return "Welcome to github actions world!!";
 	}
 
 	public static void main(String[] args) {
